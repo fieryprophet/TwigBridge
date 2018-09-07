@@ -11,12 +11,12 @@
 
 namespace TwigBridge\Extension\Laravel;
 
-use Illuminate\Support\Debug\HtmlDumper;
-use Symfony\Component\VarDumper\Cloner\VarCloner;
 use Twig\Environment;
 use Twig\Template;
 use Twig\TwigFunction;
 use Twig\Extension\AbstractExtension;
+use Symfony\Component\VarDumper\Cloner\VarCloner;
+use Symfony\Component\VarDumper\Dumper\HtmlDumper;
 
 /**
  * Dump a variable or the view context
